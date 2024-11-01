@@ -349,6 +349,7 @@ mod unicorn {
     pub mod prefer_query_selector;
     pub mod prefer_reflect_apply;
     pub mod prefer_regexp_test;
+    pub mod prefer_set_has;
     pub mod prefer_set_size;
     pub mod prefer_spread;
     pub mod prefer_string_replace_all;
@@ -930,6 +931,7 @@ oxc_macros::declare_all_lint_rules! {
     unicorn::prefer_query_selector,
     unicorn::prefer_reflect_apply,
     unicorn::prefer_regexp_test,
+    unicorn::prefer_set_has,
     unicorn::prefer_set_size,
     unicorn::prefer_spread,
     unicorn::prefer_string_replace_all,
